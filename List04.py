@@ -7,4 +7,6 @@ def main(numbers,i):
     Returns:
         list: return answer
     """
-    return
+    ritem=numbers.remove(i)
+    return numbers
+print(main([0,1,2,3,4,5,6],0))
