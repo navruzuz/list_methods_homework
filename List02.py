@@ -8,4 +8,6 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    return
+    ritem=fruits.insert(i,x)
+    return fruits
+print(main(['olma','gilos','banan'],'anor',0))
